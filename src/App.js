@@ -8,13 +8,12 @@ import { useState } from 'react';
 
 
 function App() {
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState({'firstName':"",'lastName':""});
   
 
   return (
     <>
       <Form user={user} setUser={setUser}/>
-      {/* <Print user={user}/> */}
     </>
   );
 }

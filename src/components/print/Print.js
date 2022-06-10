@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Print = ({user}) => {
+  //const firstName = user.firstName
+//  const lastName = user.lastName
   const {firstName,lastName,age}=user
   console.log(firstName);
   return (
